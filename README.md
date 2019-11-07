@@ -4,7 +4,7 @@
 body {background-color: pink;}
 h1   {color: gray;}
 p    {color: #6a5acd;
-font-size: 1.5em;}
+      font-size: 1.5em;}
 </style>
 </head>
 <body>
