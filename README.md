@@ -9,7 +9,6 @@ font-size: 1.5em;}
 </style>
 </head>
 <body>
-​
 <h1>This is a heading</h1>
 <p>Practice basic html, css and javascript on class.</p>
 <p>
