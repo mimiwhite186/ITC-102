@@ -1,4 +1,3 @@
-# ITC-102
 <html>
 <head>
 <style>
