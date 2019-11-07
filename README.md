@@ -10,6 +10,7 @@ font-size: 1.5em;}
 </head>
 <body>
 <h1>This is a heading</h1>
+  <h2># ITC-102</h2>
 <p>Practice basic html, css and javascript on class.</p>
 <p>
 Instructor: Nicole
