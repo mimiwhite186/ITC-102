@@ -2,12 +2,20 @@
 <html>
 <head>
 <style>
-body {
-  background-image: url("http://moopege.com/images/tree.gif);"
+body, alpha-bg {
+  background-image: url("https://www.publicdomainpictures.net/pictures/240000/velka/blue-soft-neon-lighting-background.jpg");
 }
-p {
-  font-size: 1.25em;
-  color: darkblue;
+h1 {
+color: white;
+}
+.alpha-bg {
+	font-size: 1.25em;
+	padding: 25px;
+	color: white;
+	background-color: rgba(144,238,144, 0.5);
+}
+button {
+color: firebrick;
 }
 </style>
 </head>
@@ -15,11 +23,11 @@ p {
 
 <h1>My JS Assignments</h1>
 
-<p>This assignment make us know basic javascript. </p>
+<p class="alpha-bg">This assignment make us know basic javascript. </p>
 
 <!--<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p> -->
 
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<button onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulboff.gif'">Turn on the light</button>
 
 <img id="myImage" src="pic_bulboff.gif" style="width:100px">
 
