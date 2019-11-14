@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("http://moopege.com/images/tree.gif);"
+}
+p {
+  font-size: 1.25em;
+  color: darkblue;
+}
+</style>
+</head>
+<body>
+
+<h1>My JS Assignments</h1>
+
+<p>This assignment make us know basic javascript. </p>
+
+<!--<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p> -->
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+<p>&nbsp;</p>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+update time.</button>
+
+<p id="demo"></p>
+</body>
+</html>
